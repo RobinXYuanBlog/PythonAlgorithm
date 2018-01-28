@@ -64,10 +64,6 @@ def par_checker(symbolString):
         return True
     else:
         return False
-
-
-print(par_checker('((()))'))
-print(par_checker('(()'))
 ```
 
 An improved version
@@ -103,10 +99,6 @@ def matches(open,close):
     opens = "([{"
     closers = ")]}"
     return opens.index(open) == closers.index(close)
-
-
-print(par_checker('{{([][])}()}'))
-print(par_checker('[{()]'))
 ```
 
 2. Convert decimal numbers to another formats
